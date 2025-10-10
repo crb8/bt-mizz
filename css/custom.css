@@ -4,3 +4,7 @@
 #frm-search > button:nth-of-type(1){
   background-color: var(--bg-black) !important;
 }
+#nav-root {
+	border: solid green;
+	justify-content: space-between;
+}
