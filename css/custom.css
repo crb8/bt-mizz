@@ -5,6 +5,5 @@
   background-color: var(--bg-black) !important;
 }
 #nav-root {
-	border: solid green;
 	justify-content: space-between;
 }
