@@ -8,8 +8,9 @@
   color: #fff !important;
 }
 
-#header-react-app nav {
-  justify-content: space-between !important;
+div.header-bottom.bg-footer-default-color #nav-root{
+	display: flex;
+	justify-content: space-between !important;
 }
 
 html::before {
