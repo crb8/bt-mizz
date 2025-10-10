@@ -13,6 +13,10 @@ div.header-bottom.bg-footer-default-color #nav-root{
 	justify-content: space-between !important;
 }
 
+div.header-bottom.bg-footer-default-color #nav-root li{
+	text-transform: uppercase !important;
+}
+
 html::before {
   content: "✅ CSS ATIVO";
   position: fixed;
