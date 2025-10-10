@@ -2,14 +2,12 @@
   --bt-black: #111111;
 }
 
-/* Corrige o seletor do botão de busca */
 #frm-search button[type="submit"] {
   background-color: var(--bt-black, #111111) !important;
   border-color: var(--bt-black, #111111) !important;
   color: #fff !important;
 }
 
-/* Ajuste do nav dentro do header principal */
 #header-react-app nav {
   justify-content: space-between !important;
 }
@@ -17,10 +15,12 @@
 html::before {
   content: "✅ CSS ATIVO";
   position: fixed;
-  top: 0; left: 0;
+  top: 0;
+  left: 0;
   background: lime;
   color: black;
   font: 12px monospace;
   padding: 2px 6px;
-  z-index: 999999;
+  z-index: 999999999 !important;
 }
+
