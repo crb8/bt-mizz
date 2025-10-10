@@ -1,9 +1,15 @@
-:root{
-  --bg-black: #111111;
+:root {
+  --bt-black: #111111;
 }
-#frm-search > button:nth-of-type(1){
-  background-color: var(--bg-black) !important;
+
+/* Corrige o seletor do botão de busca */
+#frm-search button[type="submit"] {
+  background-color: var(--bt-black, #111111) !important;
+  border-color: var(--bt-black, #111111) !important;
+  color: #fff !important;
 }
-#nav-root {
-	justify-content: space-between !important;
+
+/* Ajuste do nav dentro do header principal */
+#header-react-app nav {
+  justify-content: space-between !important;
 }
